@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-10">
             {/*banner cont*/}
             <div className="md:w-3/5">
-              <h1 className="md:text-2xl text-4xl font-bold ml-4 md:justify-between">
+              <h1 className="md:text-2xl text-4xl font-bold ml-4 md:justify-between" >
                 Home Insurance Full Quote Journey
               </h1>
               <p className="md:text-xs text-gray-my ml-4 ">
@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="ml-64 mt-6">
+        <div className="ml-64 mt-6 md:mr-64 sm:mr-64 ">
         <Image src={Divider} alt="" width={700} ></Image>
         </div>
       </div>
