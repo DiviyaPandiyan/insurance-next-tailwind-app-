@@ -12,7 +12,12 @@ const ContentPage = () => {
         <div className="grid pl-24 grid-cols-6 grid-flow-row-dense gap-5">
             <Image src={LeftImg} alt="" width={270} height={149} className="col-span-2 row-span-2 h-full object-cover"></Image>
             <div className="col-span-2 auto-row-max">
-            <div className="h-12 w-12  bg-[#65BF73] py-2 px-4 text-center rounded-full ml-40">1</div>
+            <div className="flex justify-center items-center">
+  <div className="h-12 w-12 bg-[#65BF73] text-center rounded-full">
+    1
+  </div>
+</div>
+
                 <h2 className="font-bold text-center text-[#170F49] mt-6">Select your Location</h2>
                 <p className="text-[#6F6C90] text-center text-sm">Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed.</p>
                 
@@ -28,9 +33,11 @@ const ContentPage = () => {
   </select>
 </form>
 
-<button className="bg-[#283671] text-white font-bold py-2 px-4 rounded-full items-center mt-20 ml-36">
-  Button
-</button>
+<div className="flex justify-center items-center mt-40">
+  <button className="bg-[#283671] text-white font-bold py-2 px-4 rounded-full">
+    Continue
+  </button>
+</div>
 
 
                 <div></div>
@@ -41,8 +48,10 @@ const ContentPage = () => {
             
         </div>
     </div>
-    {/* <div className="h-12 w-12  bg-[#D9D9D9] py-2 px-4 ml-96 rounded-full flex flex-row justify-center items-center">2</div> */}
-    
+    <div className="flex items-center justify-center ml-20">
+  <Image src={line2} alt="" width={6} height={1} className="object-cover" />
+</div>
+
     </>
   )
 }

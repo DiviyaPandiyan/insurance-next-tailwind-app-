@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="ml-64 mt-6 md:mr-64 sm:mr-64 ">
+        <div className="ml-64 mt-6 md:mr-64 sm:mr-64  ">
         <Image src={Divider} alt="" width={700} ></Image>
         </div>
       </div>

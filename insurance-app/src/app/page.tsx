@@ -3,6 +3,8 @@ import Navbar from "./components/layout/Navbar";
 import Hero from "./components/Heropage";
 import ContentPage from "./components/Content/index"
 import CoverPage from "./components/CoverPage/index"
+import FormsPage from "./components/DetailsPage/index"
+
 export default function Home() {
   return(
     <>
@@ -10,6 +12,7 @@ export default function Home() {
     <Hero/>
     <ContentPage/>
     <CoverPage/>
+    <FormsPage />
     </>
     
 
