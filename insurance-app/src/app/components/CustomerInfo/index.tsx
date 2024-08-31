@@ -4,7 +4,7 @@ import Image from "next/image";
 const CustomurInfo = () => {
   return (
     <>
-    <div className="md:px-12 p-4 border-spacing-16 max-w-screen-2xl mx-auto mt-12">
+    <div className="md:px-12 p-4 border-spacing-16 max-w-screen-2xl mx-auto mt-12 ml-20">
     
     <div className="bg-gradient-to-r from-[#35B6B4] to-[#283671] rounded-xl w-full md:w-[1002px] h-[149px]">
       <div className="flex flex-col md:flex-row items-center gap-10 h-full p-6">
@@ -36,7 +36,16 @@ const CustomurInfo = () => {
       </div>
     </div>
   
-   
+    <div className="flex justify-center items-start h-full">
+  <Image
+    src={img_n3}
+    alt=""
+    width={100}
+    height={100}
+    className="w-auto h-auto object-cover"
+  />
+</div>
+
     <h2 className="font-bold text-center text-[#170F49] mt-6">Customer Information</h2>
     <p className="text-[#6F6C90] text-center text-sm mb-6">
       Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed.
@@ -44,9 +53,7 @@ const CustomurInfo = () => {
   
     <div className="flex items-center justify-center">
       <div className="bg-white rounded-lg p-6 max-w-lg w-full">
-        <h2 className="text-2xl font-semibold mb-6 text-gray-900">
-          Customer Information
-        </h2>
+        
         <form className="space-y-4">
           
           <div>
