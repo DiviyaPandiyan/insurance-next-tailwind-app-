@@ -31,6 +31,7 @@ const ContentPage = () => {
     <option value="FR">France</option>
     <option value="DE">Germany</option>
   </select>
+  
 </form>
 
 <div className="flex justify-center items-center mt-40">
